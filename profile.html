@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - Book</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38584f9b84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="http://127.0.0.1:5500/index.html"> <img class="logo" src="./imagess/logo.png"></a>
+           
+
+            <ul>
+                <li><img src="./images/notification.png" alt=""></li>
+                <li><img src="./images/inbox.png" alt=""></li>
+                <li><img src="./images/video.png" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            
+            <div class="search-box">
+                <img src="./images/search.png" alt="">
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./imagess/profile.jpg" alt="">
+            </div>
+
+        </div>
+ <!-- -----------------Setting menu ---------------------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <a href="http://127.0.0.1:5500/index.html"> <img src="./imagess/profile.jpg"></a>
+                   
+                    <div>
+                        <p>Azad AT</p>
+                      <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="./images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                      <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+    
+                    <hr>
+
+                    <div class="settings-links">
+                        <img src="./images/setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px" alt=""></a>
+                    </div>
+
+                    <div class="settings-links">
+                        <img src="./images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="./images/arrow.png" width="10px" alt=""></a>
+                    </div>
+
+                    <div class="settings-links">
+                        <img src="./images/display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="./images/arrow.png" width="10px" alt=""></a>
+                    </div>
+
+
+                    <div class="settings-links">
+                        <img src="./images/logout.png" class="settings-icon">
+                        <a href="#">Log out <img src="./images/arrow.png" width="10px" alt=""></a>
+                    </div>
+            </div>
+
+            </div>
+
+    </nav>
+    <!-- end of nav bar -->
+
+    <!-------------------------Start Profile page----------------------------->
+    
+    
+    <div class="profile-container">
+        <img src="./imagess/cover.jpg" class="cover-img">
+
+        <div class="profile-details">
+
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="./imagess/profile.jpg" class="pd-img">
+                    <div>
+                        <h3>Azad AT</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="./images/member-1.png" alt="">
+                        <img src="./images/member-2.png" alt="">
+                        <img src="./images/member-3.png" alt="">
+                        <img src="./images/member-4.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button"><img src="./images/add-friends.png"> Friend</button>
+                <button type="button"><img src="./images/message.png"> Message</button>
+             <br>
+                <a href="#"><img src="./images/more.png"></a>
+            </div>
+        </div>
+
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believ in your self you can do unbeliveable things <img src="./images/feeling.png" alt=""> </p>
+                    <hr>
+
+                    <ul>
+                        <li> <img src="./images/profile-job.png"> Web Developper</li>
+                        <li><img src="./images/profile-study.png">  Studied CSEM</li>
+                        <li><img src="./images/profile-study.png">  went to H2EB</li>
+                        <li> <img src="./images/profile-home.png"> Lives in Brussel, BE</li>
+                        <li><img src="./images/profile-location.png">  From Ghor, AFG</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+
+                    </div>
+                    <div class="photo-box">
+                       
+                        <div><img src="./imagess/tree.jpg"></div>
+                        <div><img src="./imagess/school.jpg"></div>
+                        <div><img src="./imagess/color.jpg"></div>
+                        <div><img src="./imagess/football.jpg"></div>
+                        <div><img src="./imagess/energe.jpg"></div>
+                        <div><img src="./imagess/cycle.jpg"></div>
+                        
+                           
+                       
+                    </div>
+                </div>
+
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                       
+                        <div><img src="./images/member-1.png">Joseph N</div>
+                        <div><img src="./images/member-2.png">Nathan N</div>
+                        <div><img src="./images/member-3.png">George D</div>
+                        <div><img src="./images/member-4.png">Francis L</div>
+                        <div><img src="./images/member-5.png">Anthonu E</div>
+                        <div><img src="./images/member-6.png">Edward M</div>
+                        <div><img src="./images/member-7.png">Michael A</div>
+                        <div><img src="./images/member-8.png">Brandon C</div>
+                        <div><img src="./images/member-9.png">James Doe</div>
+                    
+                        
+                           
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="./imagess/profile.jpg">
+                        <div>
+                            <p>Azad AT</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on you mind, Jhon?"></textarea>
+    
+                        <div class="add-post-links">
+                            <a href="#"><img src="./images/live-video.png" >Live Video</a>
+                            <a href="#"><img src="./images/photo.png" >Photo/Video</a>
+                            <a href="#"><img src="./images/feeling.png" >Feling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./imagess/profile.jpg">
+                            <div>
+                            <p>Azad AT</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">I'd like to make the world a better place... But they won't give me the source code. 
+                    </p>
+                    <img src="./imagess/school.jpg" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png"> 120</div>
+                            <div><img src="./images/comments.png"> 60</div>
+                            <div><img src="./images/share.png"> 20</div>
+    
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="./imagess/school.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./imagess/school.jpg">
+                            <div>
+                                <p>Azad AT</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">I'd like to make the world a better place... But they won't give me the source code.         
+                    </p>
+                    <img src="./imagess/theatre.jpg" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png"> 120</div>
+                            <div><img src="./images/comments.png"> 60</div>
+                            <div><img src="./images/share.png"> 20</div>
+    
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="./imagess/profile.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./imagess/profile.jpg">
+                            <div>
+                                <p>Azad AT</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Where do you find a cow with no legs? Right where you left it.
+                  
+                    </p>
+                    <img src="./imagess/kicker.jpg" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png"> 120</div>
+                            <div><img src="./images/comments.png"> 60</div>
+                            <div><img src="./images/share.png"> 20</div>
+    
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="./imagess/profile.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./imagess/profile.jpg">
+                            <div>
+                                <p>Azad AT</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">I tried phone sex once But the holes were too small                     
+                    </p>
+                    <img src="./imagess/tree.jpg" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png"> 120</div>
+                            <div><img src="./images/comments.png"> 60</div>
+                            <div><img src="./images/share.png"> 20</div>
+    
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="./imagess/profile.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./imagess/profile.jpg">
+                            <div>
+                                <p>Azad AT</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">This is for my <span>TikTok</span> channel that I spent two days on it.</p>
+                    <img src="./imagess/football.jpg" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png"> 120</div>
+                            <div><img src="./images/comments.png"> 60</div>
+                            <div><img src="./images/share.png"> 20</div>
+    
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="./imagess/profile.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        
+        
+        
+        
+        </div>
+    </div>
+    
+    <!-------------------------end Profile page----------------------------->
+    
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
